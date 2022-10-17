@@ -1,0 +1,109 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --bg-footer-color: #2f303a;
+  --primaci-bg-color: #ffffff;
+  --secondary-text-color: (255, 255, 255, 0.6);
+  --bgc-btn: #f5f4fa;
+  --border-color: #eeeeee;
+  --line-color: #ececec;
+  --cursor-color: #000000;
+  --transition-time: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primaci-bg-color);
+  color: var(--primary-text-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: none;
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+.header {
+  background-color: rgb(255, 255, 255);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-size: 50px;
+  color: rgb(59, 59, 23);
+}
+
+.hero {
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+  background-color: red;
+  background-image: linear-gradient(
+      rgba(177, 177, 219, 0.4),
+      rgba(137, 137, 145, 0.4)
+    ),
+    url(../images/pig.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-title {
+  font-size: normal;
+  font-size: 70px;
+  text-align: center;
+  padding: auto;
+  padding-top: 400px;
+  color: rgb(82, 78, 78);
+}
